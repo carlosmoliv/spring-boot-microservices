@@ -12,14 +12,14 @@ import java.math.BigDecimal;
 @Setter
 @Entity
 public class Product {
+
     @Id
     @GeneratedValue
     private Integer id;
     private String name;
     private String description;
+    private double availableQuantity;
     private BigDecimal price;
-    private double quantity;
-
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
