@@ -1,5 +1,6 @@
 package com.carlosoliveira.ecommerce.product;
 
+import com.carlosoliveira.ecommerce.category.Category;
 import jakarta.persistence.*;
 import lombok.*;
 
